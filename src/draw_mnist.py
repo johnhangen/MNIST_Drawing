@@ -91,6 +91,7 @@ class SimpleDrawingApp:
         menu.add_cascade(label="File", menu=file_menu)
         file_menu.add_command(label="Clear", command=self.clear_canvas)
         file_menu.add_command(label="Save", command=self.save_canvas)
+        file_menu.add_command(label="Exit", command=root.destroy)
 
     def draw(self, event):
         x, y = event.x, event.y
