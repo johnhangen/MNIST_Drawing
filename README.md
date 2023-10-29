@@ -15,7 +15,7 @@ This project is an implementation of a digit recognizer using the MNIST dataset.
 
 1. **Prerequisites**:
    - Python 3.x
-   - TensorFlow (or PyTorch, depending on your implementation)
+   - TensorFlow
    - Tkinter for the UI
 
 2. **Installation**:
